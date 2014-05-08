@@ -1,0 +1,16 @@
+name = Youth Portal Dashboard
+description = Dashboard for editing youth content
+core = 7.x
+package = City of Ottawa
+version = 7.x-1.0-beta1
+project = youth_portal_dashboard
+dependencies[] = views
+features[ctools][] = page_manager:pages_default:1
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:2
+features[page_manager_pages][] = youth_portal_dashboard
+features[views_view][] = youth_portal_banners
+features[views_view][] = youth_portal_mega_menu
+features[views_view][] = youth_portal_right_hand_boxes
+features_exclude[dependencies][ctools] = ctools
+features_exclude[dependencies][page_manager] = page_manager

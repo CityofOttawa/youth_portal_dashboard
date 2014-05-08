@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Youth Portal Dashboard feature.
+ */
+
+include_once 'youth_portal_dashboard.features.inc';
